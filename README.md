@@ -1,5 +1,7 @@
 # Additiv — Technical Assignment
 
+[Demo Link](https://additiv-technical-assignment.vercel.app/)
+
 ## Available Scripts
 
 In the project directory, you can run:
