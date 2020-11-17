@@ -1,0 +1,54 @@
+.Overview {
+  margin-top: 5rem;
+
+  h1 {
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
+
+  &__currentEmployee {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    :global {
+      .MuiListItemText-secondary {
+        text-transform: capitalize;
+      }
+    }
+  }
+
+  &__currentEmployeeAvatar {
+    width: 5rem !important;
+    height: 5rem !important;
+    margin-right: 1rem;
+  }
+
+  &__listWrapper {
+    text-align: center;
+  }
+
+  &__list {
+    display: inline-block;
+    text-align: left;
+
+    :global {
+      .MuiListItemText-secondary {
+        text-transform: capitalize;
+      }
+    }
+  }
+
+  &__errorMsg {
+    color: red;
+  }
+
+  &__emptyMsg {
+    margin-top: 1rem;
+  }
+
+  small {
+    text-align: center;
+    display: block;
+  };
+}

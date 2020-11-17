@@ -1,0 +1,20 @@
+.Home {
+  margin-top: 5rem;
+
+  h1 {
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
+
+  &__form {
+    display: flex;
+  }
+
+  &__txtField {
+    flex: 1;
+    margin-right: 1rem !important;
+  }
+
+  &__searchBtn {
+  }
+}
